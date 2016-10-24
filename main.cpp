@@ -35,6 +35,21 @@ int main()
     it2++;
     std::cout << it2->first << " : " << it2->second << std::endl; // Output: "1 : docs-beta"
 
+
+    std::map < int,std::map<std::string,std::string> > translations;
+    translations.insert(1,("alleviate","mildern"));
+//  translations.insert(2,("pertinent","sachlich"));
+//  translations.insert(3,("forfeit","einbüßen"));
+//    translations[1]["value1"] = "data1";
+
+/*
+    auto itt = tranlations.begin();
+
+    for(unsigned int i = 1; i<=2; i++) {
+        std::cout << itt->first  + ": " << itt->second << std::endl;
+        itt++;
+    }
+*/
     system("pause");
 
     return 0;
